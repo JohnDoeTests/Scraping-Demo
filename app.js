@@ -5,7 +5,6 @@ var page;
 var noDealsIndex = []
 
 StartScraping().catch(err => {
-  console.log("ERRRRRRRRRRRRRRRORRRRRRRRRRRRRRRRR:  " + err);
   StartScraping();
 });
 
